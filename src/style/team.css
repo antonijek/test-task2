@@ -16,6 +16,7 @@
   margin: 0;
 }
 .btn-menage {
+  font-family: "Montserrat", sans-serif;
   background-color: #fec40e;
   padding: 0vw 3vw;
   border: 0;
@@ -113,18 +114,20 @@
   margin-top: 10vw;
 }
 .save-changes {
+  font-family: "Montserrat", sans-serif;
   padding: 0.5vw 3vw;
   background-color: #fec40e;
   box-shadow: 0 6px 5px rgb(201, 194, 194);
-  border-radius: 10px;
+  border-radius: 7px;
   border: 0;
   font-size: 1.5vw;
   font-weight: 600;
   margin-right: 2vw;
 }
 .cancel {
+  font-family: "Montserrat", sans-serif;
   padding: 0.5vw 3vw;
-  border-radius: 10px;
+  border-radius: 7px;
   border: 0;
   font-size: 1.5vw;
   font-weight: 600;
