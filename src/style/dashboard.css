@@ -1,0 +1,15 @@
+.dashboard {
+  background-color: #e2e8ed;
+  width: 20%;
+  height: 100vw;
+}
+a {
+  text-decoration: none;
+  color: #010101;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.logo {
+  width: 50%;
+  margin: 10% 25%;
+}
