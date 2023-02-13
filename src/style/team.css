@@ -1,0 +1,142 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 2vw;
+}
+.nameAndButton {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3%;
+}
+.name {
+  width: 20%;
+  margin: 0;
+}
+.btn-menage {
+  background-color: #fec40e;
+  padding: 0vw 3vw;
+  border: 0;
+  border-radius: 5%;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.new-member {
+  display: flex;
+  margin-top: 10%;
+  justify-content: end;
+  align-items: center;
+}
+.new-member p {
+  background-color: #e2e8ed;
+  height: 100%;
+  margin: 0;
+  padding-top: 1vw;
+}
+.green-line {
+  background-color: rgb(116, 189, 7);
+  width: 10px;
+  height: 50px;
+  display: flex;
+}
+.team-members {
+  width: 80%;
+}
+.input {
+  width: 100%;
+  height: 3vw;
+  border-radius: 5px;
+}
+::placeholder {
+  color: #010101;
+  font-size: 1.5vw;
+  padding-left: 2vw;
+}
+.edit-member {
+  display: flex;
+  justify-content: end;
+}
+.suspend {
+  color: rgb(239, 19, 88);
+  margin: 0.5vw 1vw;
+  font-weight: 700;
+  font-size: 1vw;
+}
+.remove {
+  color: rgb(21, 108, 213);
+  margin: 0.5vw 1vw;
+  font-weight: 700;
+  font-size: 1vw;
+}
+.add-new-member-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.add-new-member-container input {
+  width: 90%;
+  height: 3vw;
+  border-radius: 5px;
+}
+.selectPermition {
+  width: 40%;
+  margin-top: 2vw;
+}
+.select {
+  width: 100%;
+  height: 2vw;
+  border-radius: 5px;
+}
+.selectPermition td {
+  border-bottom: 1px solid black;
+  background-color: #f4f6f7;
+  font-size: 1.2vw;
+  font-weight: 400;
+  padding: 0.5vw;
+}
+.selectPermition th {
+  margin-top: 5vw;
+  margin-left: 0;
+  border-bottom: 1px solid black;
+  background-color: #f4f6f7;
+  font-size: 1.5vw;
+  font-weight: 500;
+  padding: 1vw;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin-top: 10vw;
+}
+.save-changes {
+  padding: 0.5vw 3vw;
+  background-color: #fec40e;
+  box-shadow: 0 6px 5px rgb(201, 194, 194);
+  border-radius: 10px;
+  border: 0;
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-right: 2vw;
+}
+.cancel {
+  padding: 0.5vw 3vw;
+  border-radius: 10px;
+  border: 0;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.confirm-adding {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.confirm-adding p {
+  text-align: end;
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-left: 25vw;
+}
