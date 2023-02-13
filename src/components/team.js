@@ -41,8 +41,8 @@ export const Team = ({ tabs }) => {
             </th>
           </tr>
 
-          {tabs.map((option) => (
-            <tr>
+          {tabs.map((option, i) => (
+            <tr key={i}>
               <td>{option}</td>
 
               <td>
